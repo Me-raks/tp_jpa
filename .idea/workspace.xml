@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ef750eb-7234-4741-a42a-9027e065c73c" name="Changes" comment="TP JPA">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/production/Categorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/production/Marque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/production/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/production/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/production/StockPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/Adresse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/ArticleCommande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/ArticleCommandePK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/Commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/Magasin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/DIC2_JPA/entities/vente/Personne.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LfIJcFM40cOdLPMDkkvVpsclrO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ef750eb-7234-4741-a42a-9027e065c73c" name="Changes" comment="" />
+      <created>1676255644439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676255644439</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TP JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP JPA" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="ventePU" transaction-type="RESOURCE_LOCAL">
+        <class>DIC2_JPA.entities.vente.ArticleCommande</class>
+        <class>DIC2_JPA.entities.vente.Magasin</class>
+        <class>DIC2_JPA.entities.vente.Client</class>
+        <class>DIC2_JPA.entities.vente.Commande</class>
+        <class>DIC2_JPA.entities.vente.Employe</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/vente?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.password" value="Assmbaxal291.mysql"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="productionPU" transaction-type="RESOURCE_LOCAL">
+        <class>DIC2_JPA.entities.production.Produit</class>
+        <class>DIC2_JPA.entities.production.Stock</class>
+        <class>DIC2_JPA.entities.production.Categorie</class>
+        <class>DIC2_JPA.entities.production.Marque</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/production?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.password" value="Assmbaxal291.mysql"/>
+        </properties>
+    </persistence-unit>
+</persistence>
